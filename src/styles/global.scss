@@ -27,3 +27,62 @@ input, textarea {
 button {
   cursor: pointer;
 }
+
+.principal {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media(max-width:1024px) {
+  nav.sidebar {
+    padding-right: 5px!important;
+    padding-left: 5px!important;
+    flex-direction: row!important;
+    max-width: 64rem!important;
+    .buttons-container {
+      flex-direction: row!important;
+      flex-wrap: wrap!important;
+    }
+    button.selected, button {
+      width: 172px!important;
+      height: 48px!important;
+      margin-top: 0px!important;
+      padding-left: 10px!important;
+      padding-right: 10px!important;
+    }
+    button {
+      margin-bottom: 10px!important;
+      margin-right: 10px!important;
+      & + button {
+        margin-top: 0;
+      }
+    }
+    > span {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}
+
+@media(max-width:768px) {
+
+}
+
+@media(max-width:647px) {
+  div nav.sidebar {
+    flex-direction: column !important;
+  }
+  nav.sidebar > span {
+    margin-bottom: 0;
+  }
+  .container main {
+    margin-top: 20px;
+  }
+}
+
+@media(max-width: 425px) {
+  div nav.sidebar {
+    width: 464px !important;
+  }
+}

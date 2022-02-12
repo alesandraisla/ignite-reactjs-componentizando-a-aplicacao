@@ -31,3 +31,15 @@ main {
     list-style: none;
   }
 }
+
+@media(max-width: 767px) {
+  main {
+    .movies-list {
+      grid-template-columns: repeat(2, 1fr)!important;
+      grid-gap: 4.75rem !important;
+    }
+  }
+  header span.category {
+    margin-left: 20px;
+  }
+}

@@ -17,7 +17,7 @@ Cliqui aqui - Countdown.
 Layout Mobile e Desktop
 
 <div align="center">
-     <img src="./public/images/mobile-1.png" width="250px" align="center" margin-bottom="10px"> 
-     <img src="./public/images/mobile-2.png" width="250px" align="center" margin-bottom="10px"> 
-    <img src="./public/images/desktop.png" width="600px" align="center" height="400px">
+     <img src="./public/images/mobile-1.png" width="250px" align="center"> 
+     <img src="./public/images/mobile-2.png" width="250px" align="center"> 
+    <img src="./public/images/desktop.png" width="100%" align="center" height="600px">
 </div>

@@ -66,7 +66,17 @@ button {
 }
 
 @media(max-width:768px) {
-
+  .container main .movies-list {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 10px;
+  }
+  header span.category {
+    margin-left: 10px;
+  }
+  .container .movie-card > div .movie-info {
+    max-width:8.31rem;
+  }
+ 
 }
 
 @media(max-width:647px) {
@@ -85,4 +95,13 @@ button {
   div nav.sidebar {
     width: 464px !important;
   }
+  .container main .movies-list {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .movie-card > div {
+    right: 35px;
+  }
+  .container header span.category {
+    font-size: 1.4rem;
+}
 }

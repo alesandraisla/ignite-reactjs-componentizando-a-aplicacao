@@ -105,3 +105,13 @@ button {
     font-size: 1.4rem;
 }
 }
+
+@media(max-width:320px) {
+  nav.sidebar button.selected, nav.sidebar button {
+    width: 265px !important;
+    margin-left: 20px;
+}
+nav.sidebar > span {
+  margin-bottom: 23px;
+}
+}

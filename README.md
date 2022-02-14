@@ -10,11 +10,7 @@ O principal objetivo foi refatorar uma página para listagem de filmes de acordo
 HTML5 - SASS - ReactJS - TypeScript
 Modelo responsivo.
 
-<h2>Link para visualização 🔗 </h2>
-
-Cliqui aqui - Countdown.
-
-Layout Mobile e Desktop
+<h2>Layout Mobile e Desktop</h2>
 
 <div align="center">
      <img src="./public/images/mobile-1.png" width="250px" align="center"> 
